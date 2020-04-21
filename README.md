@@ -5,9 +5,9 @@ Nodejs demo
 + 因为环境一样我就放在了一起
 
 ### splider.js 爬虫
-   1.获取目标网站 http模块 http.get
-   2.分析网站内容  cheerio 通过它可以使用jquery里的选择器
-   3.获取有效信息 下载或者其他操作
+ + 获取目标网站 http模块 http.get
+ + 分析网站内容  cheerio 通过它可以使用jquery里的选择器
+ + 获取有效信息 下载或者其他操作
    - 爬下来的是一堆字符串 用正则表达式匹配 或者用cheerio选择
    - demo：将爬到的图片链接下载下来
 
