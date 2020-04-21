@@ -15,7 +15,7 @@ let transporter = nodemailer.createTransport({
     secure: true, // true for 465, false for other ports
     auth: {
         user: 'xmj6677@qq.com', // generated ethereal user 发送方邮箱地址
-        pass: 'xestbkqwbohqbaid' // generated ethereal password    mtp验证码
+        pass: '' // generated ethereal password    申请邮箱后会给你一个验证码 请填写在这里
     }
 });
 
